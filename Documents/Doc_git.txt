@@ -56,3 +56,6 @@ Working Directory          Local Repository (.git)
 We should not have secret data public.
 --> git rm --cached credentialfile.txt & then delete from WD
 
+generate ssh keys to connect to github remote repos.
+ssh-keygen -o 
+Cpoy public key to setting github ssh keys add
