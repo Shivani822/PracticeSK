@@ -60,5 +60,5 @@ generate ssh keys to connect to github remote repos.
 --> ssh-keygen -o 
 Copy public key to setting github ssh keys add
 Create arepository named PracticeSK in github
---> git remote add origin git@github.com:Shivani822/PracticeSK
+--> git remote add origin git@github.com:Shivani822/PracticeSK.git
 --> git push -u origin main
