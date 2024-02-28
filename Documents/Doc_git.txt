@@ -59,5 +59,6 @@ We should not have secret data public.
 generate ssh keys to connect to github remote repos.
 --> ssh-keygen -o 
 Copy public key to setting github ssh keys add
+Create arepository named PracticeSK in github
 --> git remote add origin git@github.com:Shivani822/PracticeSK
 --> git push -u origin main
