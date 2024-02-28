@@ -1,0 +1,50 @@
+Version system : Means ability to keep past version of documents 1,2 final
+3 parts 
+> Local version Control- own machine local copy
+? How collaborate with team
+? what if system crash
+
+> CVCS- Centralized Version Control System
+Team have Remote repository
+change need to made - copy to local machinee make changes & save to remote repo.
+Adv:
+Commit all will have updated code
+? what if central server fails
+
+> DVCS- Distributed vcs
+Local copy + Versioning history
+Entire commit history in local + remote 
+& All can collaborat as well
+
+History
+2002 - BitKeeper
+Git - 2005
+- fast
+- simple to use
+- branching
+- fully Distributed
+
+Download git - Install standalone installer - Keep all default
+Cmd verify --> git --version
+Configure your public account orwhichever you use
+--> git config --global user.name "sk"
+--> git config --global user.email "sk@gmail.com"
+--> git config --global --list
+
+Use any editor ex: vscode
+Create a Working Directory cd into it. D:\PracticeSK>
+WD--> the local folder under which working.
+Git repository
+Staging Area--> which files you want git to track. Other files it ignores only staged files are made to be tracked.
+Commit History
+
+all present in .git Directory which get created on init
+--> git init
+--> git status
+Change master to main which we expect now
+--> Delete .git manually or rm -rf
+--> git init -b main
+
+Project Directory -- PracticeSK
+Working Directory          Local Repository (.git)
+ - Create some.txt file     - STAGING AREA (INDEX) need to add here
