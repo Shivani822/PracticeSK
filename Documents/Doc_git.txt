@@ -52,3 +52,7 @@ Working Directory          Local Repository (.git)
 --> git add some.txt
 --> git log
 --> git commit -m "My first practice commit"
+--> git diff
+We should not have secret data public.
+--> git rm --cached credentialfile.txt & then delete from WD
+
