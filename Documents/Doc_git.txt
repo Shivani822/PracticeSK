@@ -48,3 +48,7 @@ Change master to main which we expect now
 Project Directory -- PracticeSK
 Working Directory          Local Repository (.git)
  - Create some.txt file     - STAGING AREA (INDEX) need to add here
+                            - COMMIT HISTORY (Object)
+--> git add some.txt
+--> git log
+--> git commit -m "My first practice commit"
