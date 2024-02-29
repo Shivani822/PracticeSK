@@ -79,7 +79,10 @@ After that can switch to it in future to use
 --> git switch or git checkout featurebranch2
 
 List all branches
---> git branch
+--> git branch --all
+
+Delete
+git branch -d featurebranch2
 
 
 REBASE bring new main to mine
