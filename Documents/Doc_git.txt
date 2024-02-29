@@ -62,3 +62,33 @@ Copy public key to setting github ssh keys add
 Create arepository named PracticeSK in github
 --> git remote add origin git@github.com:Shivani822/PracticeSK.git
 --> git push -u origin main
+To see origin can rename also, just using same 
+--> git remote -v
+To see tags
+--> git tag
+--> git tag -a v1.0 -m "1st release"
+--> git commit -m "message"
+--> git push origin main
+--> git clone "http://copied link from github"
+--> gt fetch --> git pull 
+--> git log --pretty=oneline
+
+create a featurebranch2
+--> git checkout -b featurebranch2
+After that can switch to it in future to use
+--> git switch or git checkout featurebranch2
+
+List all branches
+--> git branch
+
+
+REBASE bring new main to mine
+git branch -- shows current branch
+git checkout main_dev
+git pull  -- fetch+merge
+git checkout mybranch
+git pull   -- any direct ones not in local if
+git merge main_dev
+git status
+git push
+on merge conflict it will show in visual studio, check then do merge
