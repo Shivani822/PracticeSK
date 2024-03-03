@@ -8,3 +8,6 @@ Steps to connect are:
 5.Execute Query 
 6.Process result
 7.Close connections
+
+Mysql connector download & install as full client + server 
+Mysql workbench is GUI for it connect to database & can use db directly for query practices.
