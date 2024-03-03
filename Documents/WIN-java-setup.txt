@@ -1,0 +1,13 @@
+Download openjdk of Microsoft 
+then download windows standalone .msi file 
+install it.
+
+Environment var gets added to system variables.
+
+Installed VS Code open terminal and check 
+javac or java -version
+
+if not works set path as below
+set PATH=%PATH%;C:\Program Files\Microsoft\jdk-21.0.2.13-hotspot\bin
+
+Now in local cmnd prompt + terminal cmd prompt of vs-code terminal it works

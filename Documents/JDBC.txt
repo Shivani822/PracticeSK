@@ -1,0 +1,10 @@
+java database connectivity
+Steps to connect are:
+1.import the package(java.sql.*)
+2.Load the Driver
+& register (class-- forName("com.mysql.jdbc.driver"))
+3.Establish the connection
+4.Create statement
+5.Execute Query 
+6.Process result
+7.Close connections

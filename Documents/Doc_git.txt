@@ -95,3 +95,5 @@ git merge main_dev
 git status
 git push
 on merge conflict it will show in visual studio, check then do merge
+
+In vs code terminal use set the path: set PATH=%PATH%;C:\Users\shih\gitInstall\Git\bin
