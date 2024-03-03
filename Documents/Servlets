@@ -1,0 +1,28 @@
+Client --> requests-webpage--->server
+                                |
+                            Helper Application
+                            (Web Conainer)--- for Dynamic Request -- in this we have 
+                            Servlets--> are Java file which takes the request from the client on internet & process & provide response in form of html page
+
+REQUEST--PROCESS--RESPONSE
+
+Web-containers: Tomcat , Glassfish etc appserver with features of webserver 
+so request is for abc.html--> its not present need to build it--> will go servlet--> it will have some name like add servlet
+In web container we have a file called --Deployment Descriptor web.xml--> Mapping for request1 <---> servlet1
+file content is something like:
+<web-app>
+  <servlet>
+    <servlet-name>AddSlet</servlet-name>
+    <servlet-class>AddSlet</servlet-class>      -- class name in java it extends httpServlet
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddSlet</servlet-name>
+    <url-pattern>/abc.html</url-pattern>       -- mapped url
+  </servlet-mapping>
+</web-app>
+
+Anotations used to replce these .xml files @WebServlet("/abc.html")
+
+Eclipse IDE javaEE installed
+Open--perspective tab is there for different purpose related bottom server, terminal opens up
+Configure Tomcat in eclipse 
