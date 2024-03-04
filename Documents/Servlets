@@ -26,3 +26,7 @@ Anotations used to replce these .xml files @WebServlet("/abc.html")
 Eclipse IDE javaEE installed
 Open--perspective tab is there for different purpose related bottom server, terminal opens up
 Configure Tomcat in eclipse 
+from JEE perspective--> below server tab--> link server open--> just give the extracted tomcat path--> and finish
+right click and start it--> browser localhost:8080 
+double click it--> to see server page RADIO button -- use tomcat installation & restart the server right click restart
+Refresh browser -- can see home tomcat page
