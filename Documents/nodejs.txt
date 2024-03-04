@@ -1,0 +1,12 @@
+node jS
+install 
+is a JS engine runtime environment 
+its used to build standlone application on physical machine, browser, has multiple modules 
+For using it along with frameworks ex express js is webapp framework
+
+Each browser has its own JS engine ex: V8 -chrome, edge 
+spidermonkey chakra etc.
+
+JS is client side language+ server side now.
+Chocolatey is windows NPM node package manager
+VS code along for application development
