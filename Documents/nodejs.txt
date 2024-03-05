@@ -10,3 +10,10 @@ spidermonkey chakra etc.
 JS is client side language+ server side now.
 Chocolatey is windows NPM node package manager
 VS code along for application development
+
+EXPRESS
+along with nodejs we get npm installed
+--> npm install express
+express is a framework we can see node_modules on the left explorer once gets downloaded along with other dependencies modules
+along with package.json & package_lock json files.
+if need any older version just see documents command & can get it.
