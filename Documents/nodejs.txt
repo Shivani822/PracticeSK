@@ -17,3 +17,11 @@ along with nodejs we get npm installed
 express is a framework we can see node_modules on the left explorer once gets downloaded along with other dependencies modules
 along with package.json & package_lock json files.
 if need any older version just see documents command & can get it.
+
+Creating a package custom, need to give relative path as not inbuilt module.
+
+Scope of require() method is 1 line for keep using the scope we need to assign its value in.
+var cal = require('./calc.js') # in this file we have function add defined
+
+But to call module in other module we need to access special way(its not like obj.fun unlike other programming langs)
+result=cal.add(4,5)
